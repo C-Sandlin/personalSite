@@ -1,0 +1,58 @@
+
+
+/* main page styling */
+.main-container {
+    width: 100vw;
+}
+
+.landing-container {
+    height: 100vh;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tagline-container a {
+    animation-timing-function: ease-in-out;
+    transition: background-size .3s ease-in-out;
+    background: linear-gradient(to bottom, transparent 40%, rgba(231, 79, 76, 0.797) 0) left center/0% 100% no-repeat;
+    padding: 0px 0px 0px 0px;
+    cursor: pointer;
+}
+
+.tagline-container a:hover {
+    background-size: 100% 100%;
+    color: #2f3b44;
+}
+
+.aboutme-container {
+    padding: 70px;
+}
+
+.tagline-container {
+    max-width: 85rem;
+    padding-top: 12rem;
+}
+
+.readmore {
+    color: rgb(171, 171, 171);
+    text-decoration: none;
+    margin-top: 0px;
+}
+
+.scroll-container {
+    display: flex;
+    max-width: 100vw;
+    margin-top: 35vh;
+    justify-content: center;
+}
+
+#scroll-arrow {
+    transform: rotate(-90deg);
+    font-size: .8em;
+    color: grey;
+}
+
+#scroll-arrow {
+    cursor: pointer;
+}

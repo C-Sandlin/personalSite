@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Body styling */
+
+body {
+  background-color: #f8f9fA;
+}
+
+@font-face {
+  font-family: 'GTSectra';
+  src: local('GTSectra'), url(../fonts/GT-Sectra-Fine-Bold.ttf) format('truetype');
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: GTSectra;
+  color: #2f3b44;
+  letter-spacing: -.04rem;
+}
+
+h1 {
+  font-size: 4.75rem;
+  margin-bottom: 1.25rem;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: rgb(176, 176, 176);
+}
+p, a {
+  font-family: 'Work Sans', sans-serif;
+  color: rgb(176, 176, 176);
+}
+
+
+.links-container a {
+  transition: background-size .3s ease-in-out;
+  background: linear-gradient(to bottom, transparent 50%, rgba(231, 79, 76, 0.797) 0) left center/0% 100% no-repeat;
+  background-position-y: -3px;
+  padding: 0px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.links-container a:hover{
+  background-size: 100% 100%;
+  color: #2f3b44;
+}
+
