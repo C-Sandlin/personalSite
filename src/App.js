@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { withRouter } from 'react-router'
 import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
-import TopNav from "./TopNav"
-import SideNav from "./SideNav"
-import Main from "./Main"
-import AboutMe from "./aboutMe"
+import TopNav from "./components/TopNav"
+import SideNav from "./components/SideNav"
+import Main from "./components/Main"
+import AboutMe from "./components/aboutMe"
 
 export default class App extends Component {
 

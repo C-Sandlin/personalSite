@@ -3,7 +3,7 @@ import { IconContext } from 'react-icons';
 import { FaGithub, FaLinkedinIn, FaDribbble, FaBehance } from 'react-icons/fa';
 import { MdMailOutline } from 'react-icons/md'
 import { FiGithub } from 'react-icons/fi'
-import './styles/nav.css';
+import '../styles/nav.css';
 
 export default class SideNav extends Component {
 

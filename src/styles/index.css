@@ -18,6 +18,10 @@ body {
   background-color: #f8f9fA;
 }
 
+#root {
+  width: 100vw;
+}
+
 @font-face {
   font-family: 'GTSectra';
   src: local('GTSectra'), url(../fonts/GT-Sectra-Fine-Bold.ttf) format('truetype');
@@ -26,18 +30,29 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: GTSectra;
   color: #2f3b44;
-  letter-spacing: -.04rem;
 }
 
 h1 {
   font-size: 4.75rem;
   margin-bottom: 1.25rem;
+  letter-spacing: -.04rem;
+}
+
+h2 {
+  letter-spacing: -.04rem;
 }
 
 h3 {
   font-family: 'Work Sans', sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
+  color: rgb(176, 176, 176);
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
   color: rgb(176, 176, 176);
 }
 p, a {

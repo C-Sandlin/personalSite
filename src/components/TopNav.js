@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { NavLink } from 'react-router-dom'
-import linearLogo from "./img/Colin-Branding-04.svg"
+import linearLogo from "../img/Colin-Branding-04.svg"
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import "./styles/nav.css";
+import "../styles/nav.css";
 
 export default class TopNav extends Component {
 
