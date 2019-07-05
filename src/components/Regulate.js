@@ -20,13 +20,13 @@ export default class Regulate extends Component {
 
     render() {
         return (
-            <section className="regulate-container" name="regulate">
-                <div className="regulate-inner-container">
-                    <div className="regulate-txt-container">
-                        <div className="regulate-actual-txt-container">
-                            <img src={RegulateLogo1} id="regulate-logo"></img>
-                            <p id="regulate-title">Frontend Capstone</p>
-                            <p id="regulate-text">I created Regulate to help both clients and therapists as they work together to improve their mental health. My wife is a therapist and together we realized the need for an intuitive, intelligent application to help clients track data, recall coping techniques, and find support. Over time, this data can make a significant impact in how clients progress and manage their unique situations.</p>
+            <section className="project-container" name="regulate">
+                <div className="project-inner-container">
+                    <div className="project-txt-container">
+                        <div className="project-actual-txt-container">
+                            <img src={RegulateLogo1} className="project-logo"></img>
+                            <p className="project-title">Frontend Capstone</p>
+                            <p className="project-text">I created Regulate to help both clients and therapists as they work together to improve their mental health. My wife is a therapist and together we realized the need for an intuitive, intelligent application to help clients track data, recall coping techniques, and find support. Over time, this data can make a significant impact in how clients progress and manage their unique situations.</p>
 
                             <IconContext.Provider value={{ size: '1.5rem' }}>
                                 <a className="readmore" href="http://www.github.com/c-sandlin" target="_blank">View this project on Github <IoIosArrowRoundForward style={{ marginBottom: '-8px' }} /></a>
@@ -40,7 +40,7 @@ export default class Regulate extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="regulate-img-container">
+                    <div className="project-img-container">
                         <img src={Regulate1}></img>
                     </div>
                 </div>

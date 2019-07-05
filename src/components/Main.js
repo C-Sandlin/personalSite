@@ -22,7 +22,7 @@ export default class Main extends Component {
     render() {
         return (
             <div className="main-container">
-                <Element className="landing-container" name="landing">
+                <section className="landing-container" name="landing">
                     <div className="tagline-container">
                         <h1>I'm a Full-Stack Developer with a background in creative problem solving.</h1>
                         {/* <h3>I started my career as an Industrial Designer <br></br>before switching to web development</h3> */}
@@ -33,7 +33,7 @@ export default class Main extends Component {
                     <div className="scroll-container">
                         <Link id="scroll-arrow" to="regulate" smooth={true} duration={500}><IoIosArrowRoundBack style={{ marginBottom: '-2px', marginRight: '10px' }} />Projects</Link>
                     </div>
-                </Element>
+                </section>
                 <Regulate />
                 <Footer />
             </div>

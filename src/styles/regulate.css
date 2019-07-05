@@ -1,72 +1,196 @@
-.regulate-container {
-    /* background-color: #2f3b44; */
-    display: block;
-    height: 100vh;
-    margin-top: 2rem;
-  }
+.project-container {
+  /* background-color: #2f3b44; */
+  display: block;
+  min-height: 100vh;
+  margin-top: 2;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.project-inner-container {
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  box-sizing: border-box;
+}
+
+.project-img-container {
+  grid-row-start: 1;
+  height: 50vh;
+  overflow: hidden;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+}
+
+.project-img-container > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.project-txt-container {
+  margin-top: 0px;
+  display: block;
+  box-sizing: border-box;
+}
   
-  .regulate-inner-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap-reverse;
-      padding: 4rem 4rem 4rem 4rem;
+.project-actual-txt-container {
+  width: 90vw;
+  margin: auto;
+  margin-top: 6vh;
+  display: block;
+  box-sizing: border-box;
+}
+
+.project-logo {
+  align-self: center;
+  /* width: 16rem; */
+  width: 8rem;
+}
+
+.project-title {
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: 20px;
+}
+
+.project-text {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding-bottom: 20px;
+}
+
+.project-txt-container a {
+  transition: background-size .3s ease-in-out;
+  background: linear-gradient(to bottom, transparent 50%, rgba(231, 79, 76, 0.797) 0) left center/0% 100% no-repeat;
+  background-position-y: -3px;
+  padding: 0px 0px 0px 0px;
+  cursor: pointer;
+  color: #2f3b44;
+  text-decoration: none;
+}
+
+.project-txt-container a:hover {
+  background-size: 100% 100%;
+  color: #2f3b44;
+}
+
+
+
+@media screen and (min-width: 60em) {
+  .project-container {
+    margin-top: 20vh;
   }
 
-  .regulate-txt-container {
-    display: block;
-    width: 50%;
+  .project-inner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+    padding: 1rem;
   }
-  
-  .regulate-img-container {
+
+  .project-txt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row-start: 1;
+    height: 100%;
+    margin: auto;
+  }
+
+  .project-actual-txt-container {
+    margin: auto;
+    /* margin-top: 6vh; */
     display: block;
-    width: 50%;
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .project-img-container {
+    display: flex;
     overflow: hidden;
+    justify-content: center;
+    height: 100%;
   }
-  
-  .regulate-img-container > img {
-    object-fit: contain;
-    margin: auto;
-    width: 100% !important;
-    height: auto !important;
-    position: static !important;
+
+  .project-img-container > img{
+    object-fit: cover;
+    width: 100%;
   }
-  
-  
-  .regulate-actual-txt-container {
-    width: 60%;
-    height: 70%;
-    margin: auto;
-    display: block;
-  }
-  
-  #regulate-logo {
+
+  .project-logo {
     align-self: center;
-    width: 16rem;
+    width: 8rem;
   }
   
-  #regulate-title {
+  .project-title {
+    font-weight: 600;
+    font-size: 1rem;
+    padding-top: 20px;
+  }
+  
+  .project-text {
+    font-size: .8rem;
+    line-height: 1.5rem;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 100em) {
+  .project-container {
+    height: 100vh;
+  }
+  .project-inner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 100%;
+    padding: 3rem;
+  }
+
+  .project-txt-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-row-start: 1;
+    height: 100%;
+    margin: auto;
+  }
+
+  .project-actual-txt-container {
+        margin: auto;
+    /* margin-top: 6vh; */
+    display: block;
+    padding: 7rem;
+  }
+
+  .project-img-container {
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .project-img-container > img{
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .project-logo {
+    align-self: center;
+    width: 12rem;
+  }
+  
+  .project-title {
     font-weight: 600;
     font-size: 1.25rem;
     padding-top: 20px;
   }
   
-  #regulate-text {
-    line-height: 2rem;
+  .project-text {
+    line-height: 1.5rem;
     padding-bottom: 20px;
+    font-size: 1rem;
   }
-
-  .regulate-txt-container a {
-    transition: background-size .3s ease-in-out;
-    background: linear-gradient(to bottom, transparent 50%, rgba(231, 79, 76, 0.797) 0) left center/0% 100% no-repeat;
-    background-position-y: -3px;
-    padding: 0px 0px 0px 0px;
-    cursor: pointer;
-    color: #2f3b44;
-  }
-  
-  .regulate-txt-container a:hover {
-    background-size: 100% 100%;
-    color: #2f3b44;
-  }
-  
-
+}
