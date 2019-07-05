@@ -1,0 +1,77 @@
+.footer-bg {
+    background-color: #2f3b44;
+}
+
+.footer-bg h2 {
+    color: rgb(176, 176, 176);
+    margin-top: 2.25rem;
+    font-size: 3.5vw;
+}
+
+.footer-container {
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 12rem 4rem 8rem 4rem;
+}
+
+.footer-txt-container {
+    align-content: center;
+}
+
+.footer-resume-section-title {
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+}
+
+.back-to-top a {
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+}
+
+.back-to-top a:hover {
+    color: rgb(231, 79, 76);
+    cursor: pointer;
+}
+
+.uparrows {
+    margin-bottom: -8px;
+}
+
+@media screen and (min-width: 60em) {
+    .footer-hero-container {
+    width: 50%;
+    display: block;
+    line-height: 2rem;
+    }
+    
+    .footer-txt-container {
+        width: 50%;
+        display: block;
+        margin-bottom: 4rem;
+    }
+    
+    .footer-txt-container h4{
+
+    }
+    
+    .footer-resume-section {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 4rem;
+    }
+    
+    .footer-resume-section-title {
+        width: 25%;
+    }
+    .footer-resume-section-txt {
+        width: 75%;
+    }
+
+    .back-to-top {
+        margin-top: 3rem;
+    }
+}

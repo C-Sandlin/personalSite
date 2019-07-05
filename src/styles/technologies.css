@@ -1,0 +1,16 @@
+.techicon {
+    margin-top: 40px;
+    color: #2f3b44;
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+  
+  .techicon:nth-child(1) {
+    padding-left: 0px;
+  }
+
+  .techs-container{
+      display: flex;
+      flex-direction: row;
+  }
+

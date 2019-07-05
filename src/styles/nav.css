@@ -1,0 +1,83 @@
+/* 
+  TopNav styling
+*/
+
+.topnav-container {
+    background-color: white;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+  }
+  
+  .logo-container {
+    display: flex;
+    flex: 1;
+    /* border: 1px solid red; */
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .main-logo {
+    width: 150px;
+    margin-left: 1rem;
+  }
+
+  .link-item {
+    margin-right: 2rem;
+    color: rgb(171, 171, 171);
+      text-decoration: none;
+  }
+    
+  .links-container {
+    display: flex;
+    flex: 3;
+    /* border: 1px solid blue; */
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+
+  @media screen and (min-width: 60em) {
+    .main-logo {
+      width: 220px;
+      margin-left: 3.5vw;
+    }
+    .link-item {
+      margin-right: 5rem;
+    }
+  }
+
+  
+  
+
+
+/* 
+  SideNav styling
+*/
+
+.sidenav-container {
+    float: right;
+    background-color: transparent;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50%;
+  }
+  
+  .sidenav-links-container {
+    display: flex;
+    flex-direction: column;
+    /* position: sticky;
+    position: -webkit-sticky;
+    top: 50%; */
+  }
+  
+  .sidenav-container a{
+    padding: .7rem;
+    align-self: center;
+  }
+  
