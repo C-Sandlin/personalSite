@@ -49,6 +49,10 @@
     margin-bottom: 50px;
 }
 
+#scroll-arrow:hover {
+    color: rgba(231, 79, 76, 0.797);
+}
+
 
 @media screen and (min-width: 60em) {
     .landing-container {
@@ -127,4 +131,3 @@
         color: #2f3b44;
     }
 }
-

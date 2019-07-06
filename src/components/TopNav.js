@@ -15,7 +15,7 @@ export default class TopNav extends Component {
                     </NavLink>
                 </div>
                 <div className="links-container">
-                    <NavLink to="/" className="link-item" activeClassName="currentLink">Home</NavLink>
+                    <NavLink to="/home" className="link-item" activeClassName="currentLink">Home</NavLink>
                     {/* <Link className="link-item" to="regulate" smooth={true} duration={500}>Projects</Link>
                     <Link className="link-item" to="technologies" smooth={true} duration={500}>Tech Stack</Link> */}
                     <NavLink to="/aboutme" className="link-item" activeClassName="currentLink">About Me</NavLink>

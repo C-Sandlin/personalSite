@@ -83,3 +83,10 @@
     align-self: center;
   }
   
+  .currentLink {
+    background: linear-gradient(to bottom, transparent 10%, rgba(231, 79, 76, 0.797) 0) left center/0% 20% no-repeat !important;
+    padding: 0px 0px 0px 0px !important;
+    cursor: pointer !important;
+    background-size: 100% 60% !important;
+    color: #2f3b44;
+}

@@ -6,9 +6,9 @@
 }
 
 .img-container {
-    height: 70vh;
+    height: 50vh;
     overflow: hidden;
-    padding: 1rem;
+    padding: 3rem;
     background-image: url(../img/Profile01.jpg);
     background-position: 0 0;
     background-size: 100% auto;
@@ -75,7 +75,7 @@
 }
 
 .aboutme-links svg{
-    transform: translate(5px, 5px);
+    transform: translate(4.5px, 5px);
 }
 
 .divider {
@@ -145,4 +145,106 @@
   
   .am-tooltip:hover .am-tooltiptext {
     visibility: visible;
+  }
+
+  @media screen and (min-width: 60em) {
+    .aboutme-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr;
+        padding: 1rem;
+    }
+
+    .txt-container {
+        grid-row-start: 1;
+    }
+
+    .img-container {
+        grid-column-start: 2;
+        height: 80vh;
+    }
+
+    .divider {
+        grid-column: 1/ span 2;
+    }
+
+    .resume-container {
+        grid-column-start: 2;
+    }
+
+    .aboutme-links {
+        grid-column-start: 1;
+        grid-row-start: 3;
+        margin-top: 2rem;
+    }
+  }
+
+  @media screen and (min-width: 90em) {
+    .divider {
+        display: none;
+    }
+
+    .aboutme-container {
+        grid-template-rows: 4fr 1fr;
+    }
+
+    .img-container {
+        padding: 8em;
+        padding-top: 4em;
+        grid-column: 2;
+        grid-row: 1/span 2;
+        height: 100vh;
+    }
+    .img-container > img {
+        margin-top: 0;
+    }
+
+    .txt-container {
+        padding: 5rem;
+    }
+
+    .aboutme-links {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .aboutme-links > a {
+        margin-top: 0;
+    }
+
+    .resume-container {
+        grid-column-start: 2;
+        grid-row-start: 2;
+        margin-top: 0;
+        padding-top: 0;
+    }
+  }
+
+  @media screen and (min-width: 100em) {
+    .divider {
+        display: none;
+    }
+
+    .aboutme-container {
+        grid-template-rows: 2fr 100px 1fr;
+    }
+
+    .txt-container {
+        padding: 8rem;
+        padding-bottom: 0;
+    }
+
+    .img-container {
+        height: 80vh;
+        padding: 5em;
+        max-width: 40vw;
+    }
+
+    .resume-container {
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+
   }
