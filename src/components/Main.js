@@ -15,6 +15,7 @@ import "../styles/nutshell.css";
 import "../styles/regulate.css";
 import "../styles/technologies.css";
 import "../styles/footer.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 export default class Main extends Component {
@@ -30,11 +31,17 @@ export default class Main extends Component {
                             <NavLink className="readmore" to="/aboutme">Read more about what makes me tick <IoIosArrowRoundForward style={{ marginBottom: '-8px' }} /></NavLink>
                         </IconContext.Provider>
                     </div>
-                    <div className="scroll-container">
-                        <Link id="scroll-arrow" to="regulate" smooth={true} duration={500}><IoIosArrowRoundBack style={{ marginBottom: '-2px', marginRight: '10px' }} />Projects</Link>
-                    </div>
+
+                    <ScrollAnimation animateIn='rubberBand' className="scroll-container" delay={3000} initiallyVisible={true}>
+                        <Link id="scroll-arrow" to="regulate" smooth={true} duration={500}><IoIosArrowRoundBack style={{ marginBottom: '-2px', marginRight: '10px' }} />
+                            Projects
+                        </Link>
+                    </ScrollAnimation>
+
                 </section>
+
                 <Regulate />
+
                 <Footer />
             </div>
         )
