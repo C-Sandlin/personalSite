@@ -2,28 +2,53 @@
     background-color: #2f3b44;
 }
 
-.footer-bg h2 {
+.footer-hero-container > h2{
+    font-size: 2rem;
     color: rgb(176, 176, 176);
     margin-top: 2.25rem;
-    font-size: 3.5vw;
 }
+
 
 .footer-container {
     min-height: 70vh;
     display: flex;
     flex-wrap: wrap;
-    padding: 12rem 4rem 8rem 4rem;
+    padding: 4rem 1rem 4rem 1rem;
 }
 
 .footer-txt-container {
     align-content: center;
 }
 
+.footer-resume-section {
+    margin-top: 2rem;
+}
+
+.footer-resume-section-div {
+    width: 75%;
+}
+
+.footer-resume-section-div > p {
+    width: 100%;
+}
+
 .footer-resume-section-title {
-    margin-top: 1rem;
+    /* margin-top: 1.5rem; */
     text-transform: uppercase;
     letter-spacing: .1rem;
     font-size: .8rem;
+    font-weight: 600;
+}
+
+.footer-resume-section-txt {
+    line-height: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+.footer-resume-section-txt a:hover{
+    color: rgb(231, 79, 76);
+    cursor: pointer;
 }
 
 .back-to-top a {
@@ -42,10 +67,13 @@
 }
 
 @media screen and (min-width: 60em) {
+    .footer-container {
+        padding: 6rem 4rem 8rem 4rem;
+    }
     .footer-hero-container {
-    width: 50%;
-    display: block;
-    line-height: 2rem;
+        width: 50%;
+        display: block;
+        line-height: 2rem;
     }
     
     .footer-txt-container {
@@ -54,10 +82,11 @@
         margin-bottom: 4rem;
     }
     
-    .footer-txt-container h4{
-
+    .footer-hero-container > h2{
+        font-size: 3rem;
+        color: rgb(176, 176, 176);
+        margin-top: 2.25rem;
     }
-    
     .footer-resume-section {
         display: flex;
         flex-direction: row;
@@ -75,3 +104,49 @@
         margin-top: 3rem;
     }
 }
+
+@media screen and (min-width: 100em) {
+    .footer-hero-container > h2{
+        font-size: 4rem;
+        color: rgb(176, 176, 176);
+        margin-top: 2.25rem;
+    }
+}
+
+/* TOOLTIPS */
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: #4e606db3;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    font-size: .8rem;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #4e606db3 transparent transparent transparent;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
