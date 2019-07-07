@@ -6,13 +6,14 @@ import JS from "../img/JS.svg"
 import ReactJS from "../img/ReactJS.svg"
 import CSharp from "../img/CSharp.svg"
 import DotNet from "../img/DotNet.svg"
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 export default class TechStack extends Component {
 
     render() {
         return (
-            <section className="techstack-container">
+            <ScrollAnimation animateIn='fadeIn' className="techstack-container" duration={2}>
                 <hr className="ts-divider"></hr>
                 <div className="ts-title">
                     <h2>My current tech stack</h2>
@@ -44,7 +45,7 @@ export default class TechStack extends Component {
                     </div>
                 </div>
                 <hr className="ts-divider"></hr>
-            </section>
+            </ScrollAnimation>
         )
     }
 }

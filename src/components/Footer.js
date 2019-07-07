@@ -9,13 +9,14 @@ import React, { Component } from "react";
 import { NavLink } from 'react-router-dom';
 import * as Scroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 
 export default class Footer extends Component {
 
     render() {
         return (
-            <div className="footer-bg">
+            <ScrollAnimation animateIn='fadeIn' className="footer-bg" duration={2}>
                 <div className="footer-container">
                     <div className="footer-hero-container">
                         <h2>Nice to meet you.</h2>
@@ -81,12 +82,12 @@ export default class Footer extends Component {
                         <div className={["back-to-top", "footer-resume-section"].join(' ')}>
                             <h4 className="footer-resume-section-title"></h4>
                             <IconContext.Provider value={{ size: '1.5rem' }}>
-                                <Link to="landing" smooth={true} duration={500} offset={-75}><FiChevronUp className="uparrows" /> back to top</Link>
+                                <Link to="landing-container" smooth={true} duration={500} offset={-200}><FiChevronUp className="uparrows" /> back to top</Link>
                             </IconContext.Provider>
                         </div>
                     </div>
                 </div>
-            </div>
+            </ScrollAnimation>
         )
     }
 }

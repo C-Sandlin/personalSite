@@ -1,10 +1,16 @@
 
 /* main page styling */
+
+.sidenav-container {
+    display: none;
+}
 .main-container {
+    grid-column-start: 1;
     width: 100vw;
     display: block;
     box-sizing: border-box;
 }
+
 
 .landing-container {
     height: 90vh;
@@ -56,6 +62,19 @@
 
 
 @media screen and (min-width: 60em) {
+    .overall-page {
+        display: grid;
+        grid-template-columns: 97vw 3vw;
+    }
+
+    .sidenav-container {
+        display: block;
+        grid-column-start: 2;
+    }
+
+    .main-container {
+        grid-row-start: 1;
+    }
     .landing-container {
         height: 80vh;
         display: block;
@@ -69,6 +88,7 @@
     .project-container {
         height: 60vh;
     }
+
 
     .aboutme-container {
         padding: 70px;
