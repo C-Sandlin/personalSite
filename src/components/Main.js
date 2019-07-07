@@ -8,6 +8,7 @@ import RegulateLogo from "../img/RegulateLogo.svg";
 import { DiHtml5, DiCss3, DiReact, DiGithubBadge } from "react-icons/di"
 import Footer from "./Footer.js";
 import Regulate from "./Regulate.js";
+import TechStack from "./TechStack.js";
 import "../styles/index.css";
 import "../styles/main.css";
 import "../styles/nav.css";
@@ -41,6 +42,7 @@ export default class Main extends Component {
                 </section>
 
                 <Regulate />
+                <TechStack />
 
                 <Footer />
             </div>
