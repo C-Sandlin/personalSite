@@ -8,6 +8,7 @@
 
 .landing-container {
     height: 90vh;
+    margin-top: 10vh;
 }
 .tagline-container a {
     animation-timing-function: ease-in-out;
@@ -63,6 +64,10 @@
     .tagline-container h1{
         font-size: 4rem;
         padding: 3vw;
+    }
+
+    .project-container {
+        height: 60vh;
     }
 
     .aboutme-container {
