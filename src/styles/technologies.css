@@ -4,7 +4,22 @@
     font-size: 1.5rem;
     padding-right: 10px;
   }
-  
+
+.colin-icon {
+  height: 27px;
+  vertical-align: middle;
+}
+
+/* /* #momentjs {
+  height: 22px;
+} */
+
+/* #reactjs{
+  height: 33px;
+  width: 33px;
+  color: #2f3b44;
+} */
+
   .techicon:nth-child(1) {
     padding-left: 0px;
   }
@@ -29,6 +44,10 @@
 .tooltip {
   position: relative;
   display: inline-block;
+}
+
+.tooltip .tooltiptext2 #github {
+  bottom: 100%;
 }
 
 .tooltip .tooltiptext2 {
