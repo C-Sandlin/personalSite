@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import '../styles/aboutme.css'
 // import Profile01 from "../img/Profile01.jpg";
-import Profile02 from "../img/Profile02.jpg";
+import Profile02 from "../img/TreCime-19.jpg";
 import { IconContext } from 'react-icons';
 import { FaGithub, FaLinkedinIn, FaDribbble, FaBehance } from 'react-icons/fa';
 import { MdMailOutline } from 'react-icons/md'

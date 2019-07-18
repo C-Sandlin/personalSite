@@ -11,7 +11,7 @@ export default class App extends Component {
   render() {
     return (
       <>
-        <Route exact path="/home" render={(props) => {
+        <Route exact path="/" render={(props) => {
           return (
             <>
               <TopNav />

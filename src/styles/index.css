@@ -27,8 +27,13 @@ body {
   src: local('GTSectra'), url(../fonts/GT-Sectra-Fine-Bold.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Noe-Bold';
+  src: local('Noe-Bold'), url(../fonts/Noe-Display-Bold.ttf) format('truetype');
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: GTSectra;
+  font-family: Noe-Bold;
   color: #2f3b44;
 }
 
@@ -43,7 +48,7 @@ h2 {
 }
 
 h3 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: 'Noe-Bold', sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
   color: rgb(176, 176, 176);

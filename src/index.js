@@ -5,6 +5,7 @@ import './styles/index.css';
 import App from './App';
 import * as serviceWorker from './components/serviceWorker';
 import './fonts/GT-Sectra-Fine-Bold.ttf';
+import './fonts/Noe-Display-Bold.ttf';
 
 ReactDOM.render(
     <Router >

@@ -11,7 +11,7 @@ import React, { Component } from "react";
 import { NavLink } from 'react-router-dom';
 import * as Scroll from 'react-scroll';
 import RegulateLogo1 from "../img/RegulateLogo.svg";
-import Regulate1 from "../img/Regulate.jpg"
+import Regulate1 from "../img/Regulate-Thumb.jpg"
 import { IoIosArrowRoundForward, IoIosArrowRoundBack } from "react-icons/io"
 import { DiHtml5, DiCss3, DiReact, DiGithubBadge, DiJsBadge } from "react-icons/di"
 import ScrollAnimation from 'react-animate-on-scroll';
