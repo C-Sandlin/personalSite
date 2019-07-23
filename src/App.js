@@ -15,7 +15,6 @@ export default class App extends Component {
           return (
             <>
               <TopNav />
-              {/* <SideNav /> */}
               <Main />
             </>)
         }}
@@ -24,7 +23,6 @@ export default class App extends Component {
           return (
             <>
               <TopNav />
-              {/* <SideNav /> */}
               <AboutMe />
             </>)
         }}

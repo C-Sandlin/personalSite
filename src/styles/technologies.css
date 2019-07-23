@@ -1,6 +1,6 @@
 .techicon {
     margin-top: 0px;
-    color: #2f3b44;
+    color: #aeaeae;
     font-size: 1.5rem;
     padding-right: 10px;
   }
@@ -27,6 +27,8 @@
   .techs-container{
       display: block;
       margin-top: 2rem;
+      max-width: 70vw;
+      
   }
 
   .tech-icons {
@@ -44,6 +46,7 @@
 .tooltip {
   position: relative;
   display: inline-block;
+  margin-top: 25px;
 }
 
 .tooltip .tooltiptext2 #github {

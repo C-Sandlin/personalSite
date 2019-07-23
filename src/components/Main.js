@@ -25,6 +25,7 @@ export default class Main extends Component {
 
     render() {
         return (
+
             <div className="overall-page">
                 <SideNav />
                 <div className="main-container">
@@ -45,12 +46,13 @@ export default class Main extends Component {
                     </ScrollAnimation>
 
                     <Regulate />
-                    <Regulate />
+                    {/* <Regulate /> */}
                     <TechStack />
 
                     <Footer />
                 </div>
             </div>
+
         )
     }
 }

@@ -21,9 +21,20 @@
   }
 
   .main-logo {
+    height: 100%;
     width: 150px;
     margin-left: 1rem;
+    content: url(../img/Colin-Branding-04.svg);
   }
+
+  @media screen and (max-width: 40em){
+    .main-logo {
+      content: url(../img/Colin-Branding-05.svg);
+      width: 90%;
+      background-repeat: no-repeat;
+    }
+  }
+
 
   .link-item {
     margin-right: 2rem;
@@ -91,12 +102,12 @@
     cursor: pointer;
   }
   
-  .currentLink {
+  /* .currentLink {
     background: linear-gradient(to bottom, transparent 10%, rgba(231, 79, 76, 0.797) 0) left center/0% 20% no-repeat !important;
     padding: 0px 0px 0px 0px !important;
     cursor: pointer !important;
     background-size: 100% 60% !important;
     color: #2f3b44;
-}
+} */
 
 }

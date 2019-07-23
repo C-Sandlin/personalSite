@@ -50,7 +50,7 @@ export default class Regulate extends Component {
                         <div className="project-txt-container">
                             <div className="project-actual-txt-container">
                                 <img src={RegulateLogo1} className="project-logo"></img>
-                                <p className="project-title"> {"<"} Frontend Capstone /{">"}</p>
+                                <p className="project-title">Frontend Capstone</p>
                                 <p className="project-text">I created Regulate to help both clients and therapists as they work together to improve their mental health. My wife is a therapist and together we realized the need for an intuitive, intelligent application to help clients track data, recall coping techniques, and find support. Over time, this data can make a significant impact in how clients progress and manage their unique situations.</p>
 
                                 <IconContext.Provider value={{ size: '1.5rem' }}>

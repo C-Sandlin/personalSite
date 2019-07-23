@@ -11,7 +11,7 @@ export default class TopNav extends Component {
             <nav className="topnav-container">
                 <div className="logo-container">
                     <NavLink to="/">
-                        <img className="main-logo" src={linearLogo} />
+                        <img className="main-logo" />
                     </NavLink>
                 </div>
                 <div className="links-container">
