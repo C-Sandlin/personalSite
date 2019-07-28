@@ -14,9 +14,9 @@ export default class TechStack extends Component {
     render() {
         return (
             <ScrollAnimation animateIn='fadeIn' className="techstack-container" duration={2}>
-                <hr className="ts-divider"></hr>
+
                 <div className="ts-title">
-                    <h2>My current tech stack</h2>
+                    <h2>Technologies</h2>
                 </div>
                 <div className="ts-logos">
                     <div className="ts-logos-item">
@@ -44,7 +44,6 @@ export default class TechStack extends Component {
                         <p>.NET</p>
                     </div>
                 </div>
-                <hr className="ts-divider"></hr>
             </ScrollAnimation>
         )
     }

@@ -2,10 +2,12 @@
   /* background-color: #2f3b44; */
   display: block;
   min-height: 100vh;
-  margin-top: 2;
+  margin-bottom: 10vh;
   padding: 0px;
   box-sizing: border-box;
 }
+
+
 
 .project-inner-container {
   height: 100%;
@@ -16,7 +18,7 @@
 
 .project-img-container {
   grid-row-start: 1;
-  height: 50vh;
+  height: 60vh;
   overflow: hidden;
   margin-bottom: 0px;
   box-sizing: border-box;
@@ -48,15 +50,17 @@
   width: 8rem;
 }
 
+
 .project-title {
+  font-family: 'Noe-Bold';
   font-weight: 600;
   font-size: 1rem;
   padding-top: 20px;
 }
 
 .project-text {
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: .9rem;
+  line-height: 1.25rem;
   padding-bottom: 20px;
 }
 
@@ -75,11 +79,23 @@
   color: #2f3b44;
 }
 
+*:focus {
+  outline: none;
+}
 
+@media screen and (min-width: 48em) {
+  .project-img-container {
+    height: 75vh;
+  }
+
+  .project-text {
+    line-height: 1.75rem;
+  }
+}
 
 @media screen and (min-width: 60em) {
   .project-container {
-    margin-top: 20vh;
+    margin-top: 10vh;
   }
 
   .project-inner-container {
@@ -158,6 +174,7 @@
     grid-row-start: 1;
     height: 100%;
     margin: auto;
+    width: 80%;
   }
 
   .project-actual-txt-container {
@@ -186,12 +203,12 @@
   
   .project-title {
     font-weight: 600;
-    font-size: 1.25rem;
+    font-size: 1.7rem;
     padding-top: 20px;
   }
   
   .project-text {
-    line-height: 1.5rem;
+    line-height: 1.75rem;
     padding-bottom: 20px;
     font-size: 1rem;
   }

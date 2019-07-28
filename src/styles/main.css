@@ -1,5 +1,8 @@
 
 /* main page styling */
+/* .overall-page {
+    overflow-x: hidden;
+} */
 
 .sidenav-container {
     display: none;
@@ -60,6 +63,32 @@
     color: rgba(231, 79, 76, 0.797);
 }
 
+@media screen and (max-height: 40em){
+    .tagline-container h1{
+        font-size: 2.25rem;
+        padding: 1rem;
+    }
+
+    .tagline-container > .readmore {
+        margin-left: 1rem;
+        font-size: .9rem;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .tagline-container h1{
+        margin-top: 15rem;
+        font-size: 3.5rem;
+        padding: 1.25rem;
+    }
+
+    .tagline-container > .readmore {
+        margin-left: 1.25rem;
+        font-size: 1.25rem;
+        text-decoration: none;
+    }
+}
 
 @media screen and (min-width: 60em) {
     .overall-page {
@@ -81,6 +110,7 @@
     }
 
     .tagline-container h1{
+        margin-top: 0px;
         font-size: 4rem;
         padding: 3vw;
     }

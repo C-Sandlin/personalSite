@@ -1,7 +1,10 @@
 .techstack-container {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10vh;
+    /* margin-bottom: 10vh; */
+    background-color: rgb(245, 245, 245);
 }
 
 .ts-title {
