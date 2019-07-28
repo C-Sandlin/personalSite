@@ -10,6 +10,7 @@ import { NavLink } from 'react-router-dom';
 import * as Scroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import ScrollAnimation from 'react-animate-on-scroll';
+import PDF from "../files/Colin_Sandlin_Resume.pdf"
 
 
 export default class Footer extends Component {
@@ -72,7 +73,7 @@ export default class Footer extends Component {
                                         <span className="tooltiptext">Portfolio</span>
                                         <FaBehance style={{ paddingRight: '30px' }} />
                                     </a>
-                                    <a href="https://c-sandlin.myportfolio.com/" target="_blank" className="tooltip">
+                                    <a href={PDF} target="_blank" className="tooltip">
                                         <span className="tooltiptext">Resume</span>
                                         <FiDownloadCloud style={{ paddingRight: '30px' }} />
                                     </a>

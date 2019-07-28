@@ -23,6 +23,7 @@
     max-width: 100%;
     margin-right: auto;
     display: block;
+    transition: .5s ease-in-out;
 }
 
 .img-container > .profile02 {
@@ -67,11 +68,13 @@
     width: 30px;
     height: 30px;
     margin: 15px;
+    text-decoration: none;
 }
 
 .aboutme-links > a:hover {
     color: rgb(231, 79, 76);
     border: 1px solid rgb(231, 79, 76);
+    text-decoration: none;
 }
 
 .aboutme-links svg{
@@ -90,7 +93,7 @@
     padding: 3rem;
 }
 
-.resume-container > button{
+.resume-container > a{
     margin: auto;
     background-color: #2f3b44;
     color: white;
@@ -99,9 +102,10 @@
     font-weight: 400;
     padding: 10px 20px;
     border-radius: 20px;
+    text-decoration: none;
 }
 
-.resume-container > button:hover{
+.resume-container > a:hover{
     
     background-color: transparent;
     color: #2f3b44;
@@ -193,13 +197,22 @@
         grid-column: 2;
         grid-row: 1/span 2;
         height: 100vh;
+        display: block; 
     }
     .img-container > img {
         margin-top: 0;
+        display:table-cell;
+	    vertical-align: top;
     }
 
     .txt-container {
         padding: 5rem;
+    }
+
+    .txt-container > p {
+        font-size: 1rem;
+        margin-top: 10px;
+        line-height: 1.5rem;
     }
 
     .aboutme-links {

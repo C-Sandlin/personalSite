@@ -28,7 +28,6 @@
       display: block;
       margin-top: 2rem;
       max-width: 70vw;
-      
   }
 
   .tech-icons {
@@ -46,7 +45,6 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  margin-top: 25px;
 }
 
 .tooltip .tooltiptext2 #github {

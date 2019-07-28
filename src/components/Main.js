@@ -8,6 +8,7 @@ import RegulateLogo from "../img/RegulateLogo.svg";
 import { DiHtml5, DiCss3, DiReact, DiGithubBadge } from "react-icons/di"
 import Footer from "./Footer.js";
 import Regulate from "./Regulate.js";
+import Nutshell from "./Nutshell.js";
 import TechStack from "./TechStack.js";
 import SideNav from "./SideNav";
 import "../styles/index.css";
@@ -31,10 +32,9 @@ export default class Main extends Component {
                 <div className="main-container">
                     <ScrollAnimation animateIn='fadeInUp' className="landing-container" name="landing" delay={500} initiallyVisible={false} animateOnce={true}>
                         <div className="tagline-container">
-                            <h1>I'm a Full-Stack Developer with a background in creative problem solving.</h1>
-                            {/* <h3>I started my career as an Industrial Designer <br></br>before switching to web development</h3> */}
+                            <h1> I'm a Full-Stack Developer with a background in creative problem solving.</h1>
                             <IconContext.Provider value={{ size: '1.5rem' }}>
-                                <NavLink className="readmore" to="/aboutme">Read more about what makes me tick <IoIosArrowRoundForward style={{ marginBottom: '-8px' }} /></NavLink>
+                                <NavLink className="readmore" to="/aboutme">Contact Me <IoIosArrowRoundForward style={{ marginBottom: '-8px' }} /></NavLink>
                             </IconContext.Provider>
                         </div>
 
@@ -46,12 +46,12 @@ export default class Main extends Component {
                     </ScrollAnimation>
 
                     <Regulate />
-                    {/* <Regulate /> */}
+                    <Nutshell />
                     <TechStack />
 
                     <Footer />
                 </div>
-            </div>
+            </div >
 
         )
     }
