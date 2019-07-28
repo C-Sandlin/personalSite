@@ -35,6 +35,7 @@
 .tagline-container h1{
     font-size: 2.75rem;
     padding: 1rem;
+    letter-spacing: -1px;
 }
 
 .tagline-container > .readmore {
