@@ -53,13 +53,14 @@
         display: grid;
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        column-gap: 1rem;
-        padding-left: 8em;
-        padding-right: 8em;
+        padding-left: 3em;
+        padding-right: 3em;
     }
 
     .ts-logos-item {
         padding: 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
         display: flex;
         flex-direction: column;
         text-align: center;
