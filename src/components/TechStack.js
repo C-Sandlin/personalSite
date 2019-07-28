@@ -6,6 +6,8 @@ import JS from "../img/JS.svg"
 import ReactJS from "../img/ReactJS.svg"
 import CSharp from "../img/CSharp.svg"
 import DotNet from "../img/DotNet.svg"
+import SQL from "../img/SQL.svg"
+import Firebase from "../img/firebase.svg"
 import ScrollAnimation from 'react-animate-on-scroll';
 
 
@@ -36,12 +38,20 @@ export default class TechStack extends Component {
                         <p>React JS</p>
                     </div>
                     <div className="ts-logos-item">
+                        <img src={Firebase} ></img>
+                        <p>Firebase</p>
+                    </div>
+                    <div className="ts-logos-item">
                         <img src={CSharp} ></img>
                         <p>C#</p>
                     </div>
                     <div className="ts-logos-item">
                         <img src={DotNet} ></img>
                         <p>.NET</p>
+                    </div>
+                    <div className="ts-logos-item">
+                        <img src={SQL} ></img>
+                        <p>SQL Server</p>
                     </div>
                 </div>
             </ScrollAnimation>
