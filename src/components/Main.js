@@ -10,7 +10,8 @@ import Footer from "./Footer.js";
 import Regulate from "./Regulate.js";
 import Nutshell from "./Nutshell.js";
 import TechStack from "./TechStack.js";
-import SideNav from "./SideNav";
+import SideNav from "./SideNav.js";
+import UX from "./UX.js"
 import "../styles/index.css";
 import "../styles/main.css";
 import "../styles/nav.css";
@@ -47,6 +48,7 @@ export default class Main extends Component {
 
                     <Regulate />
                     <Nutshell />
+                    <UX />
                     <TechStack />
 
                     <Footer />
