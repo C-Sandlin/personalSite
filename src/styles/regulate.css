@@ -50,6 +50,10 @@
   width: 8rem;
 }
 
+.project-logo-design {
+  width: 50vw;
+}
+
 
 .project-title {
   font-family: 'Noe-Bold';
@@ -140,6 +144,10 @@
   .project-logo {
     align-self: center;
     width: 8rem;
+  }
+
+  .project-logo-design {
+    width: 20vw;
   }
   
   .project-title {

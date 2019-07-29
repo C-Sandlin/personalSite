@@ -16,7 +16,7 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: .5rem;
+    /* column-gap: .5rem; */
     padding-left: 1em;
     padding-right: 1em;
 }
