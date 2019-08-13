@@ -41,16 +41,18 @@ export default class Footer extends Component {
 
                                 <p style={{ fontWeight: '600', marginBottom: '0px' }}>Industrial Designer at ASD | Sky Design</p>
                                 <p className="footer-resume-section-txt" style={{ marginTop: '0px' }}>One year working at a major international firm.</p>
+
+                                <a href={PDF} target="_blank" style={{ fontWeight: '800', marginBottom: '0px', textDecoration: 'none', textTransform: 'capitalize', letterSpacing: '.1px' }}>View Full Resume</a>
                             </div>
                         </div>
                         <div className="footer-resume-section">
                             <h4 className="footer-resume-section-title">Tech Stack</h4>
-                            <p className="footer-resume-section-txt">HTML, CSS, Javascript, Grunt, Browserify, ReactJS, C#, SQL</p>
+                            <p className="footer-resume-section-txt">HTML, CSS3, Javascript, Grunt, Browserify, React, C#, ASP.NET, SQL Server, Azure Data Studio, ADO.NET</p>
                         </div>
                         <div className="footer-resume-section">
                             <h4 className="footer-resume-section-title">Skillsets</h4>
                             <p className="footer-resume-section-txt">
-                                Visual Design, Experience Design, Interaction Design, Product Design, Front-end Development, Strong knowledge of HTML / CSS / JS, User Testing, Prototyping, UX Strategy
+                                User, Product, & Market Research, Industrial Design, Sketching, User Experience Design, Graphic Design & Typography, Adobe Photoshop, Illustrator, XD
                             </p>
                         </div>
                         <div className="footer-resume-section">
