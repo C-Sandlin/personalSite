@@ -8,7 +8,7 @@
 .img-container {
     height: 50vh;
     overflow: hidden;
-    padding: 3rem;
+    padding: 48px;
     background-image: url(../img/Profile.jpg);
     background-position: 0 0;
     background-size: 100% auto;
@@ -35,27 +35,27 @@
 }
 
 .txt-container {
-    padding: 1rem;
+    padding: 16px;
 }
 
 .txt-container > h5 {
     font-family: 'Work Sans', sans-serif;
-    font-size: .8rem;
+    font-size: 12.8px;
     text-transform: uppercase;
-    letter-spacing: .1rem;
+    letter-spacing: 1.6px;
     font-weight: 500;
     color: rgb(176, 176, 176);
     margin-bottom: 0px;
 }
 
 .txt-container > p{
-    font-size: .9rem;
+    font-size: 14.4px;
     margin-top: 10px;
-    line-height: 1.05rem;
+    line-height: 16.8px;
 }
 
 .aboutme-links {
-    padding: 0rem 2rem;
+    padding: 0px 32px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -90,7 +90,7 @@
 
 .resume-container {
     margin: auto;
-    padding: 3rem;
+    padding: 48px;
 }
 
 .resume-container > a{
@@ -98,7 +98,7 @@
     background-color: #2f3b44;
     color: white;
     font-family: 'Work Sans', sans-serif;
-    font-size: .9rem;
+    font-size: 14.4px;
     font-weight: 400;
     padding: 10px 20px;
     border-radius: 20px;
@@ -133,7 +133,7 @@
     bottom: 150%;
     left: 50%;
     margin-left: -60px;
-    font-size: .8rem;
+    font-size: 12.8px;
   }
   
   .am-tooltip .am-tooltiptext::after {
@@ -155,7 +155,7 @@
     .aboutme-container {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto 1fr;
-        padding: 1rem;
+        padding: 16px;
     }
 
     .txt-container {
@@ -178,7 +178,7 @@
     .aboutme-links {
         grid-column-start: 1;
         grid-row-start: 3;
-        margin-top: 2rem;
+        margin-top: 32px;
     }
   }
 
@@ -206,13 +206,13 @@
     }
 
     .txt-container {
-        padding: 5rem;
+        padding: 80px;
     }
 
     .txt-container > p {
-        font-size: 1rem;
+        font-size: 16px;
         margin-top: 10px;
-        line-height: 1.5rem;
+        line-height: 24px;
     }
 
     .aboutme-links {
@@ -245,7 +245,7 @@
     }
 
     .txt-container {
-        padding: 8rem;
+        padding: 128px;
         padding-bottom: 0;
     }
 
