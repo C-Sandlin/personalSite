@@ -41,11 +41,11 @@ export default class Regulate extends Component {
                                 <p className="project-title">Frontend Capstone</p>
                                 <p className="project-text">Regulate was built to help clients and therapists as they work together to improve their mental health. My wife is a therapist and together we realized the need for an intuitive, intelligent application to help clients track data, recall coping techniques, and find support. Over time, this data can make a significant impact in how clients progress and manage their unique situations by providing tangible feedback and metrics in an easy-to-understand format.
                                 </p>
-                                <IconContext.Provider value={{ style: { verticalAlign: 'middle' }, size: '.9rem' }} >
-                                    <p style={{ fontSize: '.9rem' }}><IoMdPerson />      testuser@test.com </p>
-                                    <p style={{ fontSize: '.9rem' }}><IoIosUnlock />      password010</p>
+                                <IconContext.Provider value={{ style: { verticalAlign: 'middle' }, size: '14.4px' }} >
+                                    <p style={{ fontSize: '14.4.px' }}><IoMdPerson />      testuser@test.com </p>
+                                    <p style={{ fontSize: '14.4px' }}><IoIosUnlock />      password010</p>
                                 </IconContext.Provider>
-                                <IconContext.Provider value={{ size: '1rem', style: { verticalAlign: 'middle' } }} >
+                                <IconContext.Provider value={{ size: '16px', style: { verticalAlign: 'middle' } }} >
                                     <a className="readmore" href="https://github.com/C-Sandlin/capstone-deployed" target="_blank">View Deployed Project <FiArrowRightCircle /></a>
                                 </IconContext.Provider>
 

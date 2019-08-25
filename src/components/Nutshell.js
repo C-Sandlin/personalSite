@@ -48,11 +48,11 @@ export default class Regulate extends Component {
                                 <p className="project-title">Frontend Team Sprint</p>
                                 <p className="project-text">My team, the Bryan Fiving Nilsens, created a social media platform that allows users to view news and events, add and remove friends, create a to-do list, and post messages to a message board. Additionally, once friends were added via a friend request, the user can view friends' news and events. This application was created during the second month of class to practice fetch calls to an API, using Github for version control and collaboration, handling user events and interactions, and understand relational databases and how the operate. In addition to that, we used Grunt and Browserify as a bundler and task manager.
                                 </p>
-                                <IconContext.Provider value={{ style: { verticalAlign: 'middle' }, size: '.9rem' }} >
-                                    <p style={{ fontSize: '.9rem' }}><IoMdPerson />      sean </p>
-                                    <p style={{ fontSize: '.9rem' }}><IoIosUnlock />      sean@glavin.us</p>
+                                <IconContext.Provider value={{ style: { verticalAlign: 'middle' }, size: '14.4px' }} >
+                                    <p style={{ fontSize: '14.4px' }}><IoMdPerson />      sean </p>
+                                    <p style={{ fontSize: '14.4px' }}><IoIosUnlock />      sean@glavin.us</p>
                                 </IconContext.Provider>
-                                <IconContext.Provider value={{ size: '1rem', style: { verticalAlign: 'middle' } }} >
+                                <IconContext.Provider value={{ size: '16px', style: { verticalAlign: 'middle' } }} >
                                     <a className="readmore" href="https://github.com/nss-day-cohort-32/Nutshell_TheBryanFivingNilsens" target="_blank">View Deployed Project <FiArrowRightCircle /></a>
                                 </IconContext.Provider>
                             </div>

@@ -34,7 +34,7 @@ export default class Main extends Component {
                     <ScrollAnimation animateIn='fadeInUp' className="landing-container" name="landing" delay={500} initiallyVisible={false} animateOnce={true}>
                         <div className="tagline-container">
                             <h1> I'm a Full-Stack Developer with a background in creative problem solving.</h1>
-                            <IconContext.Provider value={{ size: '1.5rem' }}>
+                            <IconContext.Provider value={{ size: '20.8px' }}>
                                 <NavLink className="readmore" to="/aboutme">Contact Me <IoIosArrowRoundForward style={{ marginBottom: '-8px' }} /></NavLink>
                             </IconContext.Provider>
                         </div>

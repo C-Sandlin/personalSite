@@ -31,7 +31,7 @@ export default class AboutMe extends Component {
                     <a href={PDF} target="_blank">Download Resume</a>
                 </section>
                 <section className="aboutme-links">
-                    <IconContext.Provider value={{ size: '1.3rem', padding: '100px' }}>
+                    <IconContext.Provider value={{ size: '20.8px', padding: '100px' }}>
                         <a href="mailto:csandlin010@gmail.com" className="am-tooltip">
                             <span className="am-tooltiptext">Email</span>
                             <MdMailOutline />

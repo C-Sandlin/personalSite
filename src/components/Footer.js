@@ -58,7 +58,7 @@ export default class Footer extends Component {
                         <div className="footer-resume-section">
                             <h4 className="footer-resume-section-title">Contact</h4>
                             <p className="footer-resume-section-txt">
-                                <IconContext.Provider value={{ size: '1.3rem', padding: '100px' }}>
+                                <IconContext.Provider value={{ size: '20.8px', padding: '100px' }}>
                                     <a href="mailto:csandlin010@gmail.com" className="tooltip">
                                         <span className="tooltiptext">Email</span>
                                         <MdMailOutline style={{ paddingRight: '30px' }} />
@@ -84,7 +84,7 @@ export default class Footer extends Component {
                         </div>
                         <div className={["back-to-top", "footer-resume-section"].join(' ')}>
                             <h4 className="footer-resume-section-title"></h4>
-                            <IconContext.Provider value={{ size: '1.5rem' }}>
+                            <IconContext.Provider value={{ size: '24px' }}>
                                 <Link to="landing-container" smooth={true} duration={500} offset={-200}><FiChevronUp className="uparrows" /> back to top</Link>
                             </IconContext.Provider>
                         </div>

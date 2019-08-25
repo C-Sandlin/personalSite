@@ -41,7 +41,7 @@ export default class UX extends Component {
                                 <p className="project-title">UX/UI Design</p>
                                 <p className="project-text">I have experience in Industrial/Product Design, Environmental Graphic Design, UX/UI Design, Website Design, and Typography. Here is a small sample of selected, relevant works.
                                 </p>
-                                <IconContext.Provider value={{ size: '1rem', style: { verticalAlign: 'middle' } }} >
+                                <IconContext.Provider value={{ size: '16px', style: { verticalAlign: 'middle' } }} >
                                     <a className="readmore" href="https://c-sandlin.myportfolio.com/" target="_blank">View Design Portfolio <FiArrowRightCircle /></a>
                                 </IconContext.Provider>
 
