@@ -27,17 +27,17 @@ export default class Footer extends Component {
                         <div className="footer-resume-section">
                             <h4 className="footer-resume-section-title">About Me</h4>
                             <p className="footer-resume-section-txt">
-                                I'm a former Industrial Designer turned developer who loves solving problems that improve people's lives. I'm a highly creative person that leverages my design experience to help inform how I code.
+                                I'm a former Industrial Designer turned UX Designer and developer who loves solving problems that improve people's lives.
                             </p>
                         </div>
                         <div className="footer-resume-section">
                             <h4 className="footer-resume-section-title">Experience</h4>
                             <div className="footer-resume-section-div">
                                 <p style={{ fontWeight: '600', marginBottom: '0px' }}>Nashville Software School</p>
-                                <p className="footer-resume-section-txt" style={{ marginTop: '0px' }}>Six Months of full-time, intensive individual and team-based learning.</p>
+                                <p className="footer-resume-section-txt" style={{ marginTop: '0px' }}>Six Months of full-time, intensive individual and team-based learning of a full-stack curriculum.</p>
 
                                 <p style={{ fontWeight: '600', marginBottom: '0px' }}>Design Lead/ Senior Designer at Advent</p>
-                                <p className="footer-resume-section-txt" style={{ marginTop: '0px' }}>Four years of leading project teams in finding creative solutions for clients.</p>
+                                <p className="footer-resume-section-txt" style={{ marginTop: '0px' }}>Four years of leading project teams in finding creative, user-centric solutions for clients.</p>
 
                                 <p style={{ fontWeight: '600', marginBottom: '0px' }}>Industrial Designer at ASD | Sky Design</p>
                                 <p className="footer-resume-section-txt" style={{ marginTop: '0px' }}>One year working at a major international firm.</p>

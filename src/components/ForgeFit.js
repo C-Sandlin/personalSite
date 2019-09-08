@@ -10,7 +10,7 @@ import { FiGithub, FiChevronUp, FiDownloadCloud, FiArrowRightCircle } from 'reac
 import React, { Component } from "react";
 import { NavLink } from 'react-router-dom';
 import * as Scroll from 'react-scroll';
-import DesignLogo1 from "../img/DesignPortfolioLogo.svg";
+import DesignLogo1 from "../img/website_logos-01.svg";
 import UXimg from "../img/UX.jpg"
 import { IoIosArrowRoundForward, IoIosArrowRoundBack, IoMdPerson, IoIosUnlock } from "react-icons/io"
 import { DiHtml5, DiCss3, DiReact, DiGithubBadge, DiJsBadge } from "react-icons/di"
@@ -34,15 +34,22 @@ export default class UX extends Component {
             <ScrollAnimation animateIn='fadeIn' duration={2}>
                 <section className="project-container" name="ux">
                     <div className="project-inner-container">
+                        <div className="project-img-container" onClick={() => window.open("https://c-sandlin.myportfolio.com/forgefit-ios-workout-app", "_blank")}>
+                            <div className="overlay">
+                                <div className="overlay-txt">Click to view project on Behance</div>
+                            </div>
+                            <img src={UXimg} className="project-thumb"></img>
 
+                        </div>
                         <div className="project-txt-container">
                             <div className="project-actual-txt-container">
-                                <img src={DesignLogo1} className="project-logo-design"></img>
-                                <p className="project-title">UX/UI Design</p>
-                                <p className="project-text">I have experience in Industrial/Product Design, Environmental Graphic Design, UX/UI Design, Website Design, and Typography. Here is a small sample of selected, relevant works.
+                                <img src={DesignLogo1} className="project-logo-design" style={{ width: '200px' }}></img>
+
+                                <p className="project-title">UX/UI Design - personal project</p>
+                                <p className="project-text">An exercise in designing the perfect workout app that simplifies, shares, and customizes so you can just focus on training.
                                 </p>
                                 <IconContext.Provider value={{ size: '16px', style: { verticalAlign: 'middle' } }} >
-                                    <a className="readmore" href="https://c-sandlin.myportfolio.com/" target="_blank">View Design Portfolio <FiArrowRightCircle /></a>
+                                    <a className="readmore" href="https://c-sandlin.myportfolio.com/" target="_blank">View Project <FiArrowRightCircle /></a>
                                 </IconContext.Provider>
 
 
@@ -50,13 +57,7 @@ export default class UX extends Component {
 
 
                         </div>
-                        <div className="project-img-container" onClick={() => window.open("https://c-sandlin.myportfolio.com/", "_blank")}>
-                            <div className="overlay">
-                                <div className="overlay-txt">Click to view design projects on Behance</div>
-                            </div>
-                            <img src={UXimg} className="project-thumb"></img>
 
-                        </div>
 
                     </div>
                 </section >
@@ -65,3 +66,8 @@ export default class UX extends Component {
     }
 
 }
+
+
+
+
+

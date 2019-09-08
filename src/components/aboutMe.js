@@ -20,10 +20,10 @@ export default class AboutMe extends Component {
                 <section className="txt-container">
                     <h2>About Me</h2>
                     <p>
-                        I am a Full-stack Developer, but I first became an Industrial Designer because I love creative problem solving - digging deep into issues to find solutions that make people’s lives better. For five years, my teams worked with developers to create dynamic installations for clients such as the Dallas Cowboys, Stanford University, and Mailchimp, and my interest in coding was piqued.
+                        For the past five years, I led design teams that created dynamic installations and powerful user experiences for clients such as the Dallas Cowboys and Stanford University. Many of these projects required collaboration with developers, and my interest in coding and UX design was piqued. Specifically, I enjoyed researching user needs, interviewing stakeholders, and digging deep into issues to find the root problem and important storylines.
                     </p>
                     <p>
-                        That experience motivated me to pivot my career and become a developer. At the end of 2018, I left my job as a designer to begin preparing for my education at Nashville Software School. As a student, I have embraced the attitude of constant learning and have found a career that I get excited about every day. My passion for creative problem solving still drives me forward, the only difference is, now I can find solutions using code. In my free time, you can find me hiking, mountain biking, or searching for the next cup of coffee with my wife.
+                        At the end of 2018, I left my job as a designer to begin preparing for my education at Nashville Software School. As a student, I have embraced the attitude of constant learning and love that I am now fluent in both design and development - I pride myself on being the intermediary between code and the user’s experience. In my free time, you can find me hiking, mountain biking, or searching for the next cup of coffee with my wife.
                     </p>
                 </section>
                 <div className="divider"></div>

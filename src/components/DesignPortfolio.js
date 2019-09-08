@@ -10,8 +10,8 @@ import { FiGithub, FiChevronUp, FiDownloadCloud, FiArrowRightCircle } from 'reac
 import React, { Component } from "react";
 import { NavLink } from 'react-router-dom';
 import * as Scroll from 'react-scroll';
-import RegulateLogo1 from "../img/RegulateLogo.svg";
-import Regulate1 from "../img/Regulate-Thumb.jpg"
+import DesignLogo1 from "../img/DesignPortfolioLogo.svg";
+import SpaceX from "../img/Spacex.jpg"
 import { IoIosArrowRoundForward, IoIosArrowRoundBack, IoMdPerson, IoIosUnlock } from "react-icons/io"
 import { DiHtml5, DiCss3, DiReact, DiGithubBadge, DiJsBadge } from "react-icons/di"
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -37,16 +37,12 @@ export default class Regulate extends Component {
 
                         <div className="project-txt-container">
                             <div className="project-actual-txt-container">
-                                <img src={RegulateLogo1} className="project-logo"></img>
-                                <p className="project-title">Full-stack web app</p>
-                                <p className="project-text">Regulate was built to help clients and therapists as they work together to improve their mental health. My wife is a therapist and together we realized the need for an intuitive, intelligent application to help clients track data, recall coping techniques, and find support. Over time, this data can make a significant impact in how clients progress and manage their unique situations by providing tangible feedback and metrics in an easy-to-understand format.
+                                <img src={DesignLogo1} className="project-logo"></img>
+                                <p className="project-title">Selected works</p>
+                                <p className="project-text">A small collection of design projects I have worked on, including Industrial Design, UX/UI Design, Experiential Design, and Graphic Design.
                                 </p>
-                                <IconContext.Provider value={{ style: { verticalAlign: 'middle' }, size: '14.4px' }} >
-                                    <p style={{ fontSize: '14.4.px' }}><IoMdPerson />      testuser@test.com </p>
-                                    <p style={{ fontSize: '14.4px' }}><IoIosUnlock />      password010</p>
-                                </IconContext.Provider>
                                 <IconContext.Provider value={{ size: '16px', style: { verticalAlign: 'middle' } }} >
-                                    <a className="readmore" href="https://github.com/C-Sandlin/capstone-deployed" target="_blank">View Deployed Project <FiArrowRightCircle /></a>
+                                    <a className="readmore" href="https://c-sandlin.myportfolio.com/work" target="_blank">View Portfolio <FiArrowRightCircle /></a>
                                 </IconContext.Provider>
 
 
@@ -54,11 +50,11 @@ export default class Regulate extends Component {
 
 
                         </div>
-                        <div className="project-img-container" onClick={() => window.open("https://github.com/C-Sandlin/capstone-deployed", "_blank")}>
+                        <div className="project-img-container" onClick={() => window.open("https://c-sandlin.myportfolio.com/work", "_blank")}>
                             <div className="overlay">
-                                <div className="overlay-txt">Click to view project on Github</div>
+                                <div className="overlay-txt">Click to view selected design projects on Behance</div>
                             </div>
-                            <img src={Regulate1} className="project-thumb"></img>
+                            <img src={SpaceX} className="project-thumb"></img>
 
                         </div>
 

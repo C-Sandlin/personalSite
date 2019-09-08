@@ -21,7 +21,7 @@ import { FaCaretDown } from "react-icons/fa"
 
 
 
-// https://github.com/C-Sandlin/nutshell-themightyducks
+
 
 export default class Regulate extends Component {
 

@@ -11,7 +11,9 @@ import Regulate from "./Regulate.js";
 import Nutshell from "./Nutshell.js";
 import TechStack from "./TechStack.js";
 import SideNav from "./SideNav.js";
-import UX from "./UX.js"
+import ForgeFit from "./ForgeFit.js"
+import OKC from "./OKC.js";
+import DesignPortfolio from "./DesignPortfolio.js";
 import "../styles/index.css";
 import "../styles/main.css";
 import "../styles/nav.css";
@@ -33,9 +35,9 @@ export default class Main extends Component {
                 <div className="main-container">
                     <ScrollAnimation animateIn='fadeInUp' className="landing-container" name="landing" delay={500} initiallyVisible={false} animateOnce={true}>
                         <div className="tagline-container">
-                            <h1> I'm a Full-Stack Developer with a background in creative problem solving.</h1>
+                            <h1> I'm a UX/UI Designer that prides myself on being the intermediary between code and the user experience.</h1>
                             <IconContext.Provider value={{ size: '20.8px' }}>
-                                <NavLink className="readmore" to="/aboutme">Contact Me <IoIosArrowRoundForward style={{ marginBottom: '-8px' }} /></NavLink>
+                                <NavLink className="readmore" to="/aboutme">I speak both languages. Let's talk! <IoIosArrowRoundForward style={{ marginBottom: '-8px' }} /></NavLink>
                             </IconContext.Provider>
                         </div>
 
@@ -47,8 +49,11 @@ export default class Main extends Component {
                     </ScrollAnimation>
 
                     <Regulate />
+
+                    <ForgeFit />
+                    <OKC />
                     <Nutshell />
-                    <UX />
+                    <DesignPortfolio />
                     <TechStack />
 
                     <Footer />
